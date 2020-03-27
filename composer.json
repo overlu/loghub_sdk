@@ -1,0 +1,25 @@
+{
+    "name": "overlu/loghub-sdk",
+    "description": "loghub sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lupeng",
+            "email": "lupeng.me@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overlu\\Log\\": "src/"
+        },
+        "classmap": [
+        ],
+        "files": [
+            "src/Utils/helper.php"
+        ]
+    }
+}
